@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+
+.rock-salt-regular {
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+header {
+    background-image: url('./assets/blue-background.jpg');
+    /* Adjust the path to your image file */
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+    font-family: "Truculenta", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+header h1 {
+    padding-left: 1.5rem;
+    font-size: 3rem;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    padding-right: 3.5rem;
+    font-size: 2rem;
+}
