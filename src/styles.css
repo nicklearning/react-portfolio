@@ -2,7 +2,7 @@
 
 * {
     box-sizing: border-box;
-    color: white;
+    color: #FFF7D6;
     font-family: "Truculenta", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -37,11 +37,11 @@ header ul {
 
 li a {
     text-decoration: none;
-    color: white;
+    color: #FFF7D6
 }
 
 li a:hover {
-    color: #559CAD;
+    color: #7BB6B3;
 }
 
 li {
@@ -50,7 +50,8 @@ li {
 }
 
 main {
-    background-color: #66101F;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(1, 34, 99, 1) 35%, rgba(0, 212, 255, 1) 100%);
     min-height: 100vh;
 }
 
