@@ -2,15 +2,14 @@
 
 * {
     box-sizing: border-box;
-}
-
-
-.rock-salt-regular {
-    font-family: "Rock Salt", cursive;
+    color: white;
+    font-family: "Truculenta", sans-serif;
+    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
-
 
 header {
     background-image: url('./assets/blue-background.jpg');
@@ -23,13 +22,7 @@ header {
     align-items: center;
     justify-content: space-between;
     text-align: center;
-    color: white;
-    font-family: "Truculenta", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
+
 }
 
 header h1 {
@@ -47,7 +40,37 @@ li a {
     color: white;
 }
 
+li a:hover {
+    color: #559CAD;
+}
+
 li {
     padding-right: 3.5rem;
     font-size: 2rem;
+}
+
+main {
+    background-color: #66101F;
+    min-height: 100vh;
+}
+
+.profile-picture-container {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.profile-picture {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p {
+    font-size: 1.5rem;
 }
