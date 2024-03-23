@@ -2,7 +2,7 @@ export const projects = [
     {
         id: 1,
         name: "No Mow",
-        screenshot: "./src/assets/no-mow-ss.jpg",
+        screenshot: "./src/assets/no-mow-ss.PNG",
         liveDemoUrl: "https://no-mow-grass-and-greens-1d203a842bdb.herokuapp.com/",
         githubUrl: "https://github.com/nicklearning/no-mow-grass-greens",
         techStack: "Full Stack w/ Nodemailer",

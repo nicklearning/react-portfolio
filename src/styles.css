@@ -84,9 +84,129 @@ p {
     width: 100%;
 }
 
-
-
 .icon-wrapper:hover {
     opacity: 0.7;
     /* Adjust opacity as needed */
+}
+
+.portfolio-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    /* Adjust as needed */
+    gap: 20px;
+    /* Adjust the gap between cards */
+}
+
+.project-card {
+    position: relative;
+    width: 100%;
+    /* Ensure each card takes full width of its grid cell */
+    height: 200px;
+    /* Adjust as needed */
+    overflow: hidden;
+    border: 1px solid #ccc;
+    /* Add border if desired */
+}
+
+/* Hover effect for the screenshot */
+.project-screenshot {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+    /* Add transition for smooth opacity change */
+}
+
+.project-card:hover .project-screenshot {
+    opacity: 0.7;
+    /* Reduce opacity on hover */
+}
+
+/* Overlay for project details */
+.project-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    /* Initially hide project details */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Adjust opacity as desired */
+    color: white;
+    padding: 20px;
+}
+
+.project-card:hover .project-overlay {
+    display: flex;
+    /* Show project details on hover */
+}
+
+.project-overlay h3,
+.project-overlay p {
+    margin: 0;
+}
+
+.project-overlay a {
+    color: white;
+}
+
+.project-overlay a:hover {
+    color: darkgray;
+    /* Change link color on hover */
+}
+
+.github-icon {
+    margin-top: 10px;
+}
+
+/* Media query for tablets */
+@media (min-width: 768px) {
+    .project-list {
+        grid-template-columns: repeat(2, 1fr);
+        /* Two columns */
+    }
+}
+
+/* Media query for desktops */
+@media (min-width: 1024px) {
+    .project-list {
+        grid-template-columns: repeat(3, 1fr);
+        /* Three columns */
+    }
+}
+
+/* Media queries for navigation links */
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        height: 300px;
+    }
+
+    header h1 {
+        padding-top: 1rem;
+    }
+
+    header ul {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+    header ul li {
+        flex-direction: column;
+        align-items: center;
+        padding-right: 0;
+    }
+
 }
