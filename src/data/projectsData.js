@@ -1,0 +1,42 @@
+export const projects = [
+    {
+        id: 1,
+        name: "No Mow",
+        screenshot: "./src/assets/no-mow-ss.jpg",
+        liveDemoUrl: "https://no-mow-grass-and-greens-1d203a842bdb.herokuapp.com/",
+        githubUrl: "https://github.com/nicklearning/no-mow-grass-greens",
+        techStack: "Full Stack w/ Nodemailer",
+    },
+    {
+        id: 2,
+        name: "Tech Blog",
+        screenshot: "./src/assets/techblog-ss.PNG",
+        liveDemoUrl: "https://nerd-node-06e90d275470.herokuapp.com/",
+        githubUrl: "https://github.com/user/project2",
+        techStack: "MySQL-Handlebars-Express",
+    },
+    {
+        id: 3,
+        name: "Plant Search Tool",
+        screenshot: "./src/assets/garden-pal.PNG",
+        liveDemoUrl: "https://nicklearning.github.io/plant-info-project/",
+        githubUrl: "https://github.com/nicklearning/plant-info-project",
+        techStack: "HTML, CSS, JS",
+    },
+    {
+        id: 4,
+        name: "Rx-Reflection",
+        screenshot: "./src/assets/rx-reflex.PNG",
+        liveDemoUrl: "https://rx-reflection-9623b73a46aa.herokuapp.com/",
+        githubUrl: "https://github.com/sfmacdonald/Rx-Reflection",
+        techStack: "Full Stack",
+    },
+    {
+        id: 5,
+        name: "Weather Dashboard",
+        screenshot: "./src/assets/weather-dashboard.PNG",
+        liveDemoUrl: "https://nicklearning.github.io/weather-dashboard/",
+        githubUrl: "https://github.com/nicklearning/weather-dashboard",
+        techStack: "JavaScript",
+    },
+];
