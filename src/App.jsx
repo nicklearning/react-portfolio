@@ -10,7 +10,7 @@ function App() {
         <>
             <main>
                 <Header />
-                <Outlet />
+                <Outlet className="flex-grow-1" />
                 <Footer />
             </main>
         </>
