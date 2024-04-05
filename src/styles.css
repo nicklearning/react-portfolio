@@ -90,10 +90,16 @@ p {
 }
 
 .portfolio-page-container {
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+.portfolio-page-container h2 {
+    align-self: flex-start; /* Move h2 to the left */
+
+  }
 
 .project-list {
     display: grid;
@@ -174,10 +180,6 @@ p {
     /* Add padding around the content */
 }
 
-.contact-container h2 {
-    text-decoration: underline;
-    /* Add padding around the content */
-}
 
 .contact-info {
     border: 1px solid #ddd;
@@ -192,6 +194,17 @@ p {
     /* Add margin between contact info items */
 }
 
+.resume-page-container {
+    padding: 20px;
+}
+
+.resume-page-container a {
+    color: inherit;
+}
+
+.about-me-container {
+    padding: 20px;
+}
 
 /* Media query for tablets */
 @media (min-width: 768px) {

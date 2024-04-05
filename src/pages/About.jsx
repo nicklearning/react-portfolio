@@ -1,7 +1,7 @@
 export default function About() {
   return (
-    <div className="mx-4 py-4 about-me-container">
-      <h3>About Me</h3>
+    <div className="about-me-container">
+      <h2>About Me</h2>
       <div className="profile-picture-container">
         <img src="./src/assets/profile-pic.jpg" alt="Profile" className="profile-picture" />
       </div>
