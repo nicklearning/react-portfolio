@@ -169,6 +169,30 @@ p {
     margin-top: 10px;
 }
 
+.contact-container {
+    padding: 20px;
+    /* Add padding around the content */
+}
+
+.contact-container h2 {
+    text-decoration: underline;
+    /* Add padding around the content */
+}
+
+.contact-info {
+    border: 1px solid #ddd;
+    /* Add a border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Add a shadow */
+    padding: 10px;
+    /* Add padding for spacing */
+    border-radius: 5px;
+    /* Optional: Add rounded corners */
+    margin-bottom: 10px;
+    /* Add margin between contact info items */
+}
+
+
 /* Media query for tablets */
 @media (min-width: 768px) {
     .project-list {
@@ -203,6 +227,7 @@ p {
         align-items: center;
         padding-left: 0;
     }
+
     header ul li {
         flex-direction: column;
         align-items: center;
