@@ -2,7 +2,7 @@ export const projects = [
     {
         id: 1,
         name: "No Mow",
-        screenshot: "./src/assets/no-mow-ss.PNG",
+        screenshot: "/assets/no-mow-ss.PNG",
         liveDemoUrl: "https://no-mow-grass-and-greens-1d203a842bdb.herokuapp.com/",
         githubUrl: "https://github.com/nicklearning/no-mow-grass-greens",
         techStack: "Full Stack w/ Nodemailer",
@@ -10,7 +10,7 @@ export const projects = [
     {
         id: 2,
         name: "Tech Blog",
-        screenshot: "./src/assets/techblog-ss.PNG",
+        screenshot: "/assets/techblog-ss.PNG",
         liveDemoUrl: "https://nerd-node-06e90d275470.herokuapp.com/",
         githubUrl: "https://github.com/user/project2",
         techStack: "MySQL-Handlebars-Express",
@@ -18,7 +18,7 @@ export const projects = [
     {
         id: 3,
         name: "Plant Search Tool",
-        screenshot: "./src/assets/garden-pal.PNG",
+        screenshot: "/assets/garden-pal.PNG",
         liveDemoUrl: "https://nicklearning.github.io/plant-info-project/",
         githubUrl: "https://github.com/nicklearning/plant-info-project",
         techStack: "HTML, CSS, JS",
@@ -26,7 +26,7 @@ export const projects = [
     {
         id: 4,
         name: "Rx-Reflection",
-        screenshot: "./src/assets/rx-reflex.PNG",
+        screenshot: "/assets/rx-reflex.PNG",
         liveDemoUrl: "https://rx-reflection-9623b73a46aa.herokuapp.com/",
         githubUrl: "https://github.com/sfmacdonald/Rx-Reflection",
         techStack: "Full Stack",
@@ -34,7 +34,7 @@ export const projects = [
     {
         id: 5,
         name: "Weather Dashboard",
-        screenshot: "./src/assets/weather-dashboard.PNG",
+        screenshot: "/assets/weather-dashboard.PNG",
         liveDemoUrl: "https://nicklearning.github.io/weather-dashboard/",
         githubUrl: "https://github.com/nicklearning/weather-dashboard",
         techStack: "JavaScript",

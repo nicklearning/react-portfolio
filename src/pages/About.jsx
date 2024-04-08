@@ -3,7 +3,7 @@ export default function About() {
     <div className="about-me-container">
       <h2>About Me</h2>
       <div className="profile-picture-container">
-        <img src="./src/assets/profile-pic.jpg" alt="Profile" className="profile-picture" />
+        <img src="/assets/profile-pic.jpg" alt="Profile" className="profile-picture" />
       </div>
       <div className="py-3">
         <p>
