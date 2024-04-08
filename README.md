@@ -1,8 +1,9 @@
-# React + Vite
+# Nick Smith's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This is my portfolio page, showcasing a collection of projects I've worked on. Built with React and Vite, it offers a sleek and responsive design. Deployed on Netlify, it provides easy access to my projects, allowing visitors to explore my skills and experiences.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Screenshot](./public/assets/readme-ss.PNG)
+
+## [Deployed Application](https://main--nicksmithportfolio.netlify.app/)
