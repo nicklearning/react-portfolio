@@ -2,7 +2,7 @@ const ResumePage = () => {
     return (
         <div className="resume-page-container">
             <h2>Resume</h2>
-            <p>Download my <a href="./src/assets/Nick Smith Resume.pdf" download>resume</a></p>
+            <p>Download my <a href="/assets/Nick Smith Resume.pdf" download>resume</a></p>
 
             <h3>Front End Proficiencies</h3>
             <ul>
