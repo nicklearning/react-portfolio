@@ -39,4 +39,12 @@ export const projects = [
         githubUrl: "https://github.com/nicklearning/weather-dashboard",
         techStack: "JavaScript",
     },
+    {
+        id: 6,
+        name: "Health Quest",
+        screenshot: "/assets/Health Quest.PNG",
+        liveDemoUrl: "https://health-quest-gun9.onrender.com/",
+        githubUrl: "https://github.com/NewManuel/Health-Quest",
+        techStack: "MERN",
+    },
 ];
