@@ -4,11 +4,11 @@ function NavTabs() {
 
   return (
     <ul>
-      <li>
+      <li >
         <Link
           to="/"
         >
-          About
+          Resume
         </Link>
       </li>
       <li>
@@ -25,11 +25,11 @@ function NavTabs() {
           Contact
         </Link>
       </li>
-      <li >
+      <li>
         <Link
-          to="/Resume"
+          to="/About"
         >
-          Resume
+          About
         </Link>
       </li>
     </ul>
